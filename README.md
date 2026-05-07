@@ -9,8 +9,8 @@ Explore
 * The effectiveness of machine learning for estimating recovery risk.
 * The most significant variables for model predictions.
 
-Executive Summary
-The research attempts to identify factors that influence supply chain recovery outcomes using the following methodologies:
+Executive Summary:
+  The research attempts to identify factors that influence supply chain recovery outcomes using the following methodologies:
 * Data Sourcing: Utilized a Kaggle dataset containing 100,000 disruption events across five industries.
 * Data Preprocessing: Cleaned 15 variables, performed feature engineering, and normalized data using scaling techniques.
 * Exploratory Data Analysis (EDA): Summarized characteristics through statistical summaries and visual plotting (histograms, box plots, scatter plots).
