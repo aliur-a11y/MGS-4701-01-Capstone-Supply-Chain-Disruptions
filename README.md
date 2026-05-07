@@ -11,6 +11,13 @@ Explore
 Executive Summary: The research attempts to identify factors that influence supply chain recovery outcomes using the following methodologies.
 * Data Sourcing: Utilized a Kaggle dataset containing 100,000 disruption events across five industries.
 * Data Preprocessing: Cleaned 15 variables, performed feature engineering, and normalized data using scaling techniques.
+
+<img width="1006" height="1028" alt="image" src="https://github.com/user-attachments/assets/ca60c153-3b38-48b3-b42d-4d8acacdf9d7" />
+Figure 1: Supplier Tier, Disruption Severity, Production Impact Outliers Boxplots
+
+<img width="998" height="1370" alt="image" src="https://github.com/user-attachments/assets/01e72d42-3f4c-46ae-aa81-e518c6b626ee" />
+Figure 2: Revenue Loss, Response Time, Partial/Full Recovery Days Outliers Boxplots 
+
 * Exploratory Data Analysis (EDA): Summarized characteristics through statistical summaries and visual plotting (histograms, box plots, scatter plots).
 * Correlation Analysis: Generated heatmaps to identify strong relationships between features and the target variable, full_recovery_days.
 * Dimensionality Reduction: Used Principal Component Analysis (PCA) to interpret the complex dimensions of the data.
@@ -38,10 +45,28 @@ EDA with Visualization
 * Box Plots: Identified outliers representing valid high-impact crises rather than data errors.
 * Heatmaps: Used to identify the strongest statistical predictors for the target variable.
 
+<img width="1736" height="938" alt="image" src="https://github.com/user-attachments/assets/de372fae-9e77-4b52-a556-f9b5db28d9a4" />
+Figure 3: Distribution of Production Impact Percentage Histogram
+
+<img width="2036" height="1188" alt="image" src="https://github.com/user-attachments/assets/732e5020-944e-4aa6-915e-5daedc03e16c" />
+Figure 4: Full Recovery Days by Disruption Type Boxplots 
+
+<img width="1766" height="1022" alt="image" src="https://github.com/user-attachments/assets/faa43f29-effd-4321-afb3-44fd9bfefa0a" />
+Figure 5: Proportion of Disruption Severity by Supplier Size Bar Chart 
+
+<img width="1758" height="1076" alt="image" src="https://github.com/user-attachments/assets/50f39a62-4dc2-41db-9a61-c21121d500d0" />
+Figure 6: Revenue Loss vs Production Impact Scatterplot 
+
+<img width="1718" height="1288" alt="image" src="https://github.com/user-attachments/assets/ae0dd783-7bbf-4b48-9a48-50c57981365a" />
+Figure 7: Correlation Heatmap of Numerical Variables   
+
 Predictive Analytics
 * Primary Model: Random Forest Regressor.
 * Principal Component Analysis (PCA): Conducted on standardized, one-hot encoded predictor matrices to identify key data dimensions like "disruption intensity" and "supplier resilience".
 * Evaluation Metrics: Measured performance using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared ($R^2$).
+
+<img width="1024" height="646" alt="image" src="https://github.com/user-attachments/assets/1d2ceebe-2a51-4cec-b02d-9a2571f4497c" />
+Figure 8: Scree plot for PCA and the cumulative explained variance 
 
 Conclusion
 * Severity & Recovery: Disruptions with higher severity scores and larger production impacts consistently lead to longer recovery periods.
