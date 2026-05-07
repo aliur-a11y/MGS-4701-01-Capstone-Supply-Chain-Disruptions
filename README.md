@@ -20,6 +20,7 @@ Results - Exploratory Data Analysis:
 * Electronics is the most represented industry, and the Asia-Pacific region is the dominant supplier region.
 * Cyberattacks and geopolitical issues show wider variability and generally longer recovery periods compared to port congestion.
 * Higher disruption severity and production impact are strongly associated with longer recovery times.
+
 Predictive Analytics:
 * A Random Forest Regressor was selected for its ability to handle non-linear relationships and provide feature importance insights.
 * PCA revealed that 16 components were required to explain 80% of the variance, highlighting the dataset's complexity.
@@ -31,6 +32,7 @@ Methodology - Data Collection & Preprocessing
 * Encoding: Applied label encoding for ordinal features (supplier size/region) and one-hot encoding for mitigation strategies (response_type).
 * Scaling: Normalized continuous variables like revenue_loss_usd using StandardScaler.
 * Splitting: Used an 80/20 train-test split for model evaluation.
+
 EDA with Visualization
 * Histograms: Plotted recovery time distributions to check for skewness.
 * Box Plots: Identified outliers representing valid high-impact crises rather than data errors.
