@@ -37,6 +37,7 @@ EDA with Visualization
 * Histograms: Plotted recovery time distributions to check for skewness.
 * Box Plots: Identified outliers representing valid high-impact crises rather than data errors.
 * Heatmaps: Used to identify the strongest statistical predictors for the target variable.
+
 Predictive Analytics
 * Primary Model: Random Forest Regressor.
 * Principal Component Analysis (PCA): Conducted on standardized, one-hot encoded predictor matrices to identify key data dimensions like "disruption intensity" and "supplier resilience".
